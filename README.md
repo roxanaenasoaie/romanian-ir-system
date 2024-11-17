@@ -21,6 +21,8 @@ To search for one or more queries, use:
 python main.py -search -query <query1> <query2>
 ```
 
+**Important** You MUST first run the indexing for the searching to work.
+
 ## **Features**
 - **Document Preprocessing**:
   - Uses Stanza for lemmatization to handle Romanian-specific grammar.
